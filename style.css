@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700&display=swap");
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(2, 80, 197);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 80, 197, 1) 0%,
+    rgba(100, 50, 163, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+#login {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  width: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+input {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+}
+.logo {
+  width: 150px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  padding: 1rem;
+  text-align: center;
+}
+.container h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.container button {
+  background-color: #fd625e;
+  padding: 0.5rem;
+  margin-top: 3rem;
+  border: none;
+  border-radius: 5px;
+}
+.text h5 {
+  margin-left: 1rem;
+}
+.text input {
+  width: 85%;
+}
+.captha {
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  width: 250px;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.button-login button {
+  margin-left: 1rem;
+  background-color: #5156be;
+  border: none;
+  padding: 1rem;
+  width: 460px;
+  border-radius: 5px;
+}
+.gmail {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.button-gmail button {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+  background-color: #fd625e;
+  border: none;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 5px;
+}
