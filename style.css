@@ -50,6 +50,7 @@ input {
   border: none;
   border-radius: 5px;
 }
+
 .text h5 {
   margin-left: 1rem;
 }
@@ -85,13 +86,13 @@ input {
   text-align: center;
 }
 .button-gmail button {
-  display: flex;
-  justify-content: center;
   margin-left: 1rem;
   margin-bottom: 4rem;
   background-color: #fd625e;
+  border-radius: 5px;
   border: none;
   padding: 1rem;
-  align-items: center;
-  border-radius: 5px;
+}
+.footer h4 {
+  text-align: center;
 }
