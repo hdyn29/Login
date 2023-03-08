@@ -44,23 +44,24 @@ input {
   font-family: "IBM Plex Sans", sans-serif;
 }
 .container button {
+  color: white;
   background-color: #fd625e;
   padding: 0.5rem;
   margin-top: 3rem;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
-
-.text h5 {
+.text-mahasiswa h5 {
   margin-left: 1rem;
 }
-.text input {
+.text-mahasiswa-isi {
   width: 85%;
 }
 .captha {
   display: flex;
   align-items: center;
-  background-color: #202020;
+  border: 1px solid black;
+  background-color: white;
   border-radius: 5px;
   margin-top: 3rem;
   margin-left: 1rem;
@@ -73,12 +74,13 @@ input {
   padding: 1rem 0;
 }
 .button-login button {
+  color: white;
   margin-left: 1rem;
   background-color: #5156be;
-  border: none;
+  border: 1px solid black;
   padding: 1rem;
   width: 460px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .gmail {
   margin-top: 2rem;
@@ -86,11 +88,12 @@ input {
   text-align: center;
 }
 .button-gmail button {
+  color: white;
   margin-left: 1rem;
   margin-bottom: 4rem;
   background-color: #fd625e;
-  border-radius: 5px;
-  border: none;
+  border-radius: 10px;
+  border: 1px solid black;
   padding: 1rem;
 }
 .footer h4 {
